@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* background-image: url("./assets/bckgimg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; */
+}
+.body {
+  font-family: Poppins;
+}
+.main-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 0.75fr 1fr 0.5fr 0.75fr;
+  background-image: url("./assets/bckgimg.png");
+  background-repeat: no-repeat;
+  background-position: 30%;
+  background-size: cover;
+  font-family: Poppins;
+  padding: 50px;
+  height: 650px;
+}
+
+.navlist {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.details {
+  grid-column: 1/-1;
+  justify-self: center;
+  font-size: 30px;
+  text-align: center;
+  align-self: flex-start;
+  color: rgb(222, 222, 11);
+}
+
+.readourmenubutton {
+  grid-column: 1/-1;
+  width: fit-content;
+  justify-self: center;
+  align-self: center;
+  height: 50%;
+  width: 10%;
+  text-align: center;
+  background-color: rgb(234, 65, 65);
+  color: white;
+}
+
+.nav {
+  width: 100%;
+}
+
+.orderbutton {
+  justify-self: right;
+  height: 30%;
+  width: 15%;
+  background-color: rgb(234, 65, 65);
+  color: white;
+  font-family: Poppins;
+}
+
+a {
+  color: rgb(165, 165, 12);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.scroll {
+  justify-self: right;
+  grid-column: 1/-1;
+}
